@@ -1,0 +1,32 @@
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+vc-material/lib
+vc-material/es
+vc-material/components
+vc-material/utils
+vc-material/hooks
+vc-material/theme-chalk
+vc-material/index.d.ts
+vc-material/index.ts
+# !packages/vc-material
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+site/.cache

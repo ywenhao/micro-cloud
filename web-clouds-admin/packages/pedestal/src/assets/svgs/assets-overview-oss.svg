@@ -1,0 +1,19 @@
+<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="&#230;&#150;&#135;&#228;&#187;&#182;&#229;&#173;&#152;&#229;&#130;&#168;&#229;&#146;&#140;&#231;&#174;&#161;&#231;&#144;&#134;">
+<rect width="26" height="26" fill="white" fill-opacity="0.01"/>
+<rect id="Rectangle 240647172" x="6" y="5" width="16" height="7" rx="2" fill="#164CFF"/>
+<g id="Rectangle 240647171" filter="url(#filter0_b_4364_107565)">
+<path d="M2 6C2 4.89543 2.89543 4 4 4H8.13577C8.65623 4 9.15618 4.20288 9.52946 4.56556L11.26 6.24694C11.6333 6.60962 12.1332 6.8125 12.6537 6.8125H22C23.1046 6.8125 24 7.70793 24 8.8125V20C24 21.1046 23.1046 22 22 22H4C2.89543 22 2 21.1046 2 20V6Z" fill="#164CFF" fill-opacity="0.16"/>
+<path d="M23.75 8.8125V20C23.75 20.9665 22.9665 21.75 22 21.75H4C3.0335 21.75 2.25 20.9665 2.25 20V6C2.25 5.0335 3.0335 4.25 4 4.25H8.13577C8.59117 4.25 9.02863 4.42752 9.35525 4.74486L11.0858 6.42625C11.5057 6.83426 12.0682 7.0625 12.6537 7.0625H22C22.9665 7.0625 23.75 7.846 23.75 8.8125Z" stroke="white" stroke-opacity="0.5" stroke-width="0.5" stroke-linejoin="round"/>
+</g>
+<rect id="Rectangle 240647157" x="9" y="17" width="8" height="2" rx="1" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_b_4364_107565" x="-2" y="0" width="30" height="26" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="2"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_4364_107565"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_4364_107565" result="shape"/>
+</filter>
+</defs>
+</svg>

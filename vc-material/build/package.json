@@ -1,0 +1,8 @@
+{
+  "name": "@vc-material/build",
+  "scripts": {
+    "start": "gulp -f gulpfile.ts",
+    "dev": "pnpm run stub",
+    "stub": "unbuild --stub"
+  }
+}

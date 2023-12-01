@@ -1,0 +1,13 @@
+{
+  "folders": [
+    { "name": "ROOT DIR", "path": "../" },
+    { "name": "Apis", "path": "../packages/apis" },
+    { "name": "Shared", "path": "../packages/shared" },
+    { "name": "云平台 基座", "path": "../packages/pedestal" },
+    { "name": "云分发 CDN", "path": "../packages/cdn" },
+    { "name": "云存储 OSS", "path": "../packages/oss" },
+    { "name": "SSL 证书", "path": "../packages/ssl" },
+    { "name": "云解析 DNS", "path": "../packages/dns" },
+    { "name": "云转码 MTS", "path": "../packages/mts" }
+  ]
+}

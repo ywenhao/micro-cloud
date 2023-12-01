@@ -1,0 +1,11 @@
+
+.prettierrc
+!commitlint.config.js
+.babel.config.js
+!.umirc.ts
+public
+node_modules
+packages/apis/schema
+*.json
+*.md
+.eslintcache

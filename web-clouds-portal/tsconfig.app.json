@@ -1,0 +1,26 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "include": [
+    "src/**/*",
+    "src/**/*.vue",
+    "./typings/*.d.ts",
+    "packages/**/*",
+    "packages/mts/src/router/routes/workflow.ts"
+  ],
+  "exclude": [
+    "src/**/__tests__/*",
+    "node_modules/*",
+    "packages/**/node_modules/*",
+    "packages/**/vite.config.*",
+    "packages/apis/scripts/*"
+  ],
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "composite": true,
+    "baseUrl": ".",
+    "rootDir": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "extends": "../../tsconfig.app.json",
+  "include": [
+    "env.d.ts",
+    "components/**/*",
+    "hooks/**/*",
+    "layout/**/*",
+    "lib/**/*",
+    "config/**/*",
+    "utils/**/*",
+    "types/*.d.ts",
+    "index.ts",
+    "types/index.ts",
+    "../pedestal/types/*.d.ts"
+  ],
+  "compilerOptions": {
+    "types": [
+      "../../node_modules/@arco-design/web-vue/es/icon/icon-components.d.ts"
+    ]
+  }
+}

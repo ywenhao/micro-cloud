@@ -1,0 +1,22 @@
+stages:
+  - deploy
+variables:
+  PROJECT_NAME: $CI_PROJECT_NAME
+  BRANCH_NAME: $CI_COMMIT_REF_NAME
+  GIT_CLEAN_FLAGS: -fdx -e node_modules/
+deploy:
+  stage: deploy
+  only:
+    refs:
+      - tags
+      - dev
+      - test
+  tags:
+    - web-runner
+  script:
+    - pnpm install --no-frozen-lockfile
+    - pnpm build-$BRANCH_NAME
+    - rm -rf /data/web/$BRANCH_NAME/web-clouds-portal
+    - mkdir -p /data/web/$BRANCH_NAME/web-clouds-portal
+    - cp -rf dist  /data/web/$BRANCH_NAME/web-clouds-portal
+  timeout: 10m

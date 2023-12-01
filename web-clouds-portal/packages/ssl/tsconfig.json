@@ -1,0 +1,23 @@
+{
+  "extends": "../../tsconfig.app.json",
+  "include": [
+    "env.d.ts",
+    "src/**/*",
+    "src/**/*.vue",
+    "types/*.d.ts",
+    "../../typings/*.d.ts",
+    "../../packages/**/*"
+  ],
+  "exclude": [
+    "dist",
+    "node_modules",
+    "../../packages/node_modules",
+    "../../packages/**/vite.config.*"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}

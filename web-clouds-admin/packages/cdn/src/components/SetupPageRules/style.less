@@ -1,0 +1,52 @@
+.setup-page-rules {
+  width: 100%;
+  border-radius: 6px;
+  background: #fff;
+  border: 1px solid var(--color-border-2, #e5e6eb);
+
+  .field-match {
+    padding: 10px 8px 10px 16px;
+    width: 214px;
+  }
+  .field-value {
+    flex: 1;
+  }
+  .field-action {
+    width: 48px;
+  }
+  &__header {
+    @apply flex items-center;
+    background: var(--color-fill-2, #f2f3f5);
+    .field-match,
+    .field-value,
+    .field-action {
+      @apply flex items-center h-10;
+      color: var(--color-text-1, #1d2129);
+      /* 14 Medium 正文 */
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 20px;
+    }
+  }
+  &__main {
+    padding: 16px 0 16px 16px;
+    .rule-config-row {
+      @apply flex items-start;
+      & + .rule-config-row {
+        @apply mt-2;
+      }
+
+      .field-match {
+        padding: 0 8px 0 0;
+        width: calc(214px - 16px);
+      }
+      .field-value {
+        width: 214px;
+        @apply min-h-8 flex items-center pr-2;
+      }
+    }
+  }
+  &__footer {
+    padding: 0px 16px 16px;
+  }
+}

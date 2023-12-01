@@ -1,0 +1,14 @@
+{
+  "extends": "@tsconfig/node18/tsconfig.json",
+  "include": [
+    "./**/vite.config.*",
+    "./build/**/*",
+    "./typings/**/*.d.ts",
+    "packages/apis/scripts/*"
+  ],
+  "compilerOptions": {
+    "composite": true,
+    "module": "ESNext",
+    "types": ["node"]
+  }
+}

@@ -1,0 +1,36 @@
+.vca-layout {
+  @apply w-screen h-screen;
+  &.has-sider {
+    @apply pl-200px;
+  }
+  &__header {
+    @apply fixed top-0 left-0 w-full h-52px flex items-center shadow-normal z-10 px-5 z-10 bg-white;
+  }
+  &__sider {
+    @apply w-200px fixed top-0 left-0 bottom-0 pt-52px overflow-hidden;
+    .arco-layout-sider-children {
+      overflow: hidden;
+      & > .arco-scrollbar {
+        @apply h-full overflow-hidden;
+        .arco-scrollbar-container {
+          @apply h-full overflow-y-auto;
+        }
+        .arco-scrollbar-thumb-direction-vertical {
+          left: 3px;
+        }
+      }
+    }
+  }
+  &__main {
+    @apply pt-52px h-full overflow-y-hidden;
+    background-color: var(--color-fill-2);
+  }
+  &__main--scrollbar {
+    height: 100%;
+    background-color: var(--color-fill-2);
+    .vca-layout-scrollbar__view {
+      background-color: var(--color-fill-2);
+      @apply p-6 h-full overflow-y-auto;
+    }
+  }
+}

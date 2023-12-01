@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "declaration": true,
+    "skipDefaultLibCheck": true,
+    "strict": true,
+    "target": "ES2015",
+    "module": "ESNext",
+    "jsx": "preserve",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "lib": ["esnext", "dom"]
+  },
+  "include": ["packages/**/*", "build/utils/pathr.js", "build/path-resolve.js"]
+}

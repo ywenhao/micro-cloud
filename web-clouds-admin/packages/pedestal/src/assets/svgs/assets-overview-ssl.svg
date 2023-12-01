@@ -1,0 +1,20 @@
+<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Frame 624959">
+<rect id="&#231;&#159;&#169;&#229;&#189;&#162;&#229;&#164;&#135;&#228;&#187;&#189; 6" x="4" width="14" height="14" rx="2" fill="#164CFF"/>
+<g id="&#231;&#159;&#169;&#229;&#189;&#162;&#229;&#164;&#135;&#228;&#187;&#189; 5" filter="url(#filter0_b_4364_107628)">
+<rect y="3" width="22" height="19" rx="2" fill="#164CFF" fill-opacity="0.16"/>
+<rect x="0.35" y="3.35" width="21.3" height="18.3" rx="1.65" stroke="white" stroke-opacity="0.502303" stroke-width="0.7"/>
+</g>
+<path id="Star 1" d="M7 8L8.34015 10.1554L10.8042 10.7639L9.16841 12.7046L9.35114 15.2361L7 14.28L4.64886 15.2361L4.83159 12.7046L3.19577 10.7639L5.65985 10.1554L7 8Z" fill="white"/>
+<rect id="Rectangle 240647665" x="12" y="9" width="5" height="1" fill="white"/>
+<rect id="Rectangle 240647666" x="12" y="13" width="7" height="1" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_b_4364_107628" x="-4" y="-1" width="30" height="27" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="2"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_4364_107628"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_4364_107628" result="shape"/>
+</filter>
+</defs>
+</svg>

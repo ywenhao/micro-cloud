@@ -1,0 +1,24 @@
+<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="&#231;&#189;&#145;&#231;&#171;&#153;&#233;&#157;&#153;&#230;&#128;&#129;&#232;&#181;&#132;&#230;&#186;&#144;&#229;&#173;&#152;&#229;&#130;&#168;&#229;&#146;&#140;&#229;&#136;&#134;&#229;&#143;&#145;">
+<rect width="26" height="26" fill="white" fill-opacity="0.01"/>
+<rect id="Rectangle 240647173" x="3" y="4" width="20" height="6" rx="1.1" fill="#164CFF"/>
+<g id="Rectangle 240647174" filter="url(#filter0_b_4364_107541)">
+<rect x="3" y="7" width="20" height="15" rx="1.12611" fill="#164CFF" fill-opacity="0.1"/>
+<rect x="3.28153" y="7.28153" width="19.4369" height="14.4369" rx="0.844579" stroke="white" stroke-opacity="0.5" stroke-width="0.563053" stroke-linejoin="round"/>
+</g>
+<circle id="Ellipse 513" cx="5.5" cy="5.5" r="0.5" fill="white"/>
+<circle id="Ellipse 514" cx="7.1499" cy="5.5" r="0.5" fill="white"/>
+<circle id="Ellipse 515" cx="8.7998" cy="5.5" r="0.5" fill="white"/>
+<rect id="Rectangle 240647157" x="8" y="18" width="5" height="2" transform="rotate(-90 8 18)" fill="white"/>
+<rect id="Rectangle 240647176" x="12" y="18" width="4" height="2" transform="rotate(-90 12 18)" fill="white"/>
+<rect id="Rectangle 240647175" x="16" y="18" width="7" height="2" transform="rotate(-90 16 18)" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_b_4364_107541" x="0.74779" y="4.74779" width="24.5044" height="19.5044" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="1.12611"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_4364_107541"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_4364_107541" result="shape"/>
+</filter>
+</defs>
+</svg>

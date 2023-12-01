@@ -1,0 +1,118 @@
+.matching-rules {
+  padding-bottom: 16px;
+  width: 100%;
+  border: 1px solid var(--color-border-2);
+  border-radius: 6px;
+  .matching-rules__header,
+  .matching-rules__body {
+    padding: 0 16px;
+  }
+  .and-or {
+    @apply border-primary! color-primary!;
+  }
+
+  .matching-rules__header {
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    margin-bottom: 16px;
+    height: 40px;
+    background-color: var(--color-fill-2);
+  }
+
+  .matching-rules__body {
+    .matching-group {
+      &__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .matching-rule + .matching-rule {
+          margin-top: 8px;
+        }
+        .matching-rule {
+          .matching-rule__item {
+            margin-top: 0;
+            margin-right: 0;
+            margin-bottom: 0;
+
+            /* padding: 0 4px !important; */
+            &.actions .arco-btn-icon {
+              color: var(--color-border-4);
+            }
+          }
+          .matching-rule__item.value,
+          .matching-rule__item.operator {
+            margin-left: 8px !important;
+          }
+        }
+      }
+      .or-hr {
+        @text-width: 32px;
+        position: relative;
+        padding: 0 4px;
+        height: 52px;
+        &::before,
+        &::after {
+          position: absolute;
+          top: 50%;
+          display: block;
+          content: '';
+          transform: translateY(-50%);
+        }
+
+        &::before {
+          width: @text-width;
+          height: 20px;
+          font-size: 14px;
+          color: var(--color-text-3);
+          content: '或者';
+        }
+        &::after {
+          @size: 3px;
+          right: 0;
+          left: calc(@text-width + 4px);
+          height: 10px;
+          background: repeating-linear-gradient(
+            135deg,
+            var(--color-fill-3) 0px,
+            var(--color-fill-3) @size,
+            transparent @size,
+            transparent @size * 2
+          );
+        }
+      }
+    }
+  }
+  .fields,
+  .matching-rule__item.fields,
+  .arco-input-wrapper {
+    width: 200px;
+  }
+  .operator,
+  .matching-rule__item.operator,
+  .arco-input-wrapper {
+    width: 120px;
+  }
+  .value,
+  .matching-rule__item.value {
+    flex: 1;
+    .arco-input-wrapper {
+      flex: 1;
+    }
+  }
+  .value,
+  .operator {
+    margin-left: 8px;
+  }
+  .actions,
+  .matching-rule__item.actions {
+    padding-left: 8px;
+    width: 88px;
+  }
+
+  .arco-select-view-inner {
+    .arco-tag.arco-tag-size-medium {
+      padding: 0px 8px !important;
+    }
+  }
+}

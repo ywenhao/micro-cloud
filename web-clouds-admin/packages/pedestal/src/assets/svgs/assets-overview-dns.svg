@@ -1,0 +1,19 @@
+<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Frame 624960">
+<path id="&#232;&#183;&#175;&#229;&#190;&#132;" d="M8.92995 4.67592C8.42525 3.68397 7.37522 3 6.15656 3C4.52428 3 3.18991 4.2271 3.07419 5.78126C1.87399 6.1131 1 7.13011 1 8.33333C1 9.75261 2.2162 10.9188 3.75 11H8.90656C10.6139 11 12 9.58192 12 7.83318C12 6.14772 10.6422 4.77499 8.92995 4.67592Z" fill="#164CFF"/>
+<g id="Polygon 34" filter="url(#filter0_b_4364_107609)">
+<path d="M12 2.57735C12.6188 2.22008 13.3812 2.22008 14 2.57735L21.5263 6.92265C22.1451 7.27992 22.5263 7.94017 22.5263 8.6547V17.3453C22.5263 18.0598 22.1451 18.7201 21.5263 19.0774L14 23.4226C13.3812 23.7799 12.6188 23.7799 12 23.4226L4.47372 19.0774C3.85492 18.7201 3.47372 18.0598 3.47372 17.3453V8.6547C3.47372 7.94017 3.85492 7.27992 4.47372 6.92265L12 2.57735Z" fill="#164CFF" fill-opacity="0.16"/>
+<path d="M13.825 2.88046L21.3513 7.22576C21.8618 7.5205 22.1763 8.06521 22.1763 8.6547V17.3453C22.1763 17.9348 21.8618 18.4795 21.3513 18.7742L13.825 23.1195C13.3145 23.4143 12.6855 23.4143 12.175 23.1195L4.64872 18.7742C4.13821 18.4795 3.82372 17.9348 3.82372 17.3453V8.6547C3.82372 8.06521 4.13821 7.5205 4.64872 7.22576L12.175 2.88046C12.6855 2.58572 13.3145 2.58572 13.825 2.88046Z" stroke="white" stroke-opacity="0.5" stroke-width="0.7" stroke-linejoin="round"/>
+</g>
+<path id="Vector 1133 (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M15.4939 11.5644L11.0617 15.4425L8.02549 13.4184L3.9998 16.5V14.5L7.97451 11.5816L10.9383 13.5574L14.5061 10.4355L15.4939 11.5644Z" fill="white"/>
+<circle id="Ellipse 528" cx="15.5" cy="10.5" r="2.5" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_b_4364_107609" x="-0.526276" y="-1.69043" width="27.0526" height="29.3809" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="2"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_4364_107609"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_4364_107609" result="shape"/>
+</filter>
+</defs>
+</svg>

@@ -1,0 +1,17 @@
+{
+  "name": "@vc-material/components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "build": "vite build"
+  },
+  "peerDependencies": {
+    "@arco-design/web-vue": "^2.46.0",
+    "vue": "^3.3.4"
+  },
+  "dependencies": {
+    "@vc-material/utils": "workspace:*",
+    "@vc-material/hooks": "workspace:*"
+  }
+}

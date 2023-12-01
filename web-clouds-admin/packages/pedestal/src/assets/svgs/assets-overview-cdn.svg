@@ -1,0 +1,21 @@
+<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Frame 624721">
+<rect width="26" height="26" fill="white" fill-opacity="0.01"/>
+<rect id="&#231;&#159;&#169;&#229;&#189;&#162;&#229;&#164;&#135;&#228;&#187;&#189; 4" x="9" y="2" width="7" height="7" rx="3.5" fill="#164CFF"/>
+<rect id="&#231;&#159;&#169;&#229;&#189;&#162;&#229;&#164;&#135;&#228;&#187;&#189; 8" x="9" y="15" width="7" height="7" rx="3.5" transform="rotate(90 9 15)" fill="#164CFF"/>
+<rect id="&#231;&#159;&#169;&#229;&#189;&#162;&#229;&#164;&#135;&#228;&#187;&#189; 8_2" x="17" y="22" width="7" height="7" rx="3.5" transform="rotate(-90 17 22)" fill="#164CFF"/>
+<g id="&#231;&#159;&#169;&#229;&#189;&#162;&#229;&#164;&#135;&#228;&#187;&#189; 5" filter="url(#filter0_b_4364_107651)">
+<rect x="4" y="5" width="18" height="18" rx="9" fill="#164CFF" fill-opacity="0.16"/>
+<rect x="4.25" y="5.25" width="17.5" height="17.5" rx="8.75" stroke="white" stroke-opacity="0.502303" stroke-width="0.5"/>
+</g>
+<path id="Polygon 30" d="M12.8268 10.3C12.9038 10.1667 13.0962 10.1667 13.1732 10.3L16.2909 15.7C16.3679 15.8333 16.2717 16 16.1177 16H9.88231C9.72835 16 9.63212 15.8333 9.7091 15.7L12.8268 10.3Z" fill="#F9FAFC"/>
+</g>
+<defs>
+<filter id="filter0_b_4364_107651" x="0" y="1" width="26" height="26" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="2"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_4364_107651"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_4364_107651" result="shape"/>
+</filter>
+</defs>
+</svg>

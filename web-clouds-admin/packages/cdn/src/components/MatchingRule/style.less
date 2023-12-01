@@ -1,0 +1,111 @@
+.matching-rules {
+  width: 100%;
+  border: 1px solid var(--color-border-2);
+  padding-bottom: 16px;
+  border-radius: 6px;
+  .matching-rules__header,
+  .matching-rules__body {
+    padding: 0 16px;
+  }
+  .and-or {
+    @apply border-primary! color-primary!;
+  }
+
+  .matching-rules__header {
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    height: 40px;
+    background-color: var(--color-fill-2);
+    margin-bottom: 16px;
+  }
+
+  .matching-rules__body {
+    .matching-group {
+      &__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .matching-rule + .matching-rule {
+          margin-top: 8px;
+        }
+        .matching-rule {
+          .matching-rule__item {
+            margin-top: 0;
+            margin-bottom: 0;
+            margin-right: 0;
+            // padding: 0 4px !important;
+            &.actions .arco-btn-icon {
+              color: var(--color-border-4);
+            }
+          }
+          .matching-rule__item.value,
+          .matching-rule__item.operator {
+            margin-left: 8px !important;
+          }
+        }
+      }
+      .or-hr {
+        @text-width: 32px;
+        padding: 0 4px;
+        height: 52px;
+        position: relative;
+        &::before,
+        &::after {
+          content: '';
+          display: block;
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+
+        &::before {
+          content: '或者';
+          font-size: 14px;
+          height: 20px;
+          color: var(--color-text-3);
+          width: @text-width;
+        }
+        &::after {
+          @size: 3px;
+          left: calc(@text-width + 4px);
+          height: 10px;
+          right: 0;
+          background: repeating-linear-gradient(
+            135deg,
+            var(--color-fill-3) 0px,
+            var(--color-fill-3) @size,
+            transparent @size,
+            transparent @size * 2
+          );
+        }
+      }
+    }
+  }
+  .fields,
+  .matching-rule__item.fields,
+  .arco-input-wrapper {
+    width: 200px;
+  }
+  .operator,
+  .matching-rule__item.operator,
+  .arco-input-wrapper {
+    width: 120px;
+  }
+  .value,
+  .matching-rule__item.value {
+    flex: 1;
+    .arco-input-wrapper {
+      flex: 1;
+    }
+  }
+  .value,
+  .operator {
+    margin-left: 8px;
+  }
+  .actions,
+  .matching-rule__item.actions {
+    width: 88px;
+    padding-left: 8px;
+  }
+}

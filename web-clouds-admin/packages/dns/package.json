@@ -1,0 +1,22 @@
+{
+  "name": "@vca/dns",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "dev:dev": "vite --mode development",
+    "build:dev": "vite build --mode development",
+    "dev:prod": "vite --mode production",
+    "build:prod": "vite build --mode production",
+    "dev:test": "vite --mode test",
+    "build:test": "vite build --mode test",
+    "dev:release": "vite --mode release",
+    "build:release": "vite build --mode release",
+    "build:check": "run-p type-check build-only"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^3.0.3"
+  }
+}
